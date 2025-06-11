@@ -1,0 +1,35 @@
+ .calculator {
+      width: 260px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .display {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      height: 40px;
+      text-align: right;
+      border: 1px solid #ddd;
+      padding: 5px 10px;
+      background-color: #f9f9f9;
+    }
+    .keys {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    .key {
+      padding: 15px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    .key--equal {
+      grid-column: span 2;
+      background-color: #4CAF50;
+      color: white;
+    }
+    .key--zero {
+      grid-column: span 2;
+    }
